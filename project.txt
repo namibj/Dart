@@ -1,0 +1,13 @@
+Dart Score
+
+steps:
+1. read Player Name (Single Player)
+2. input score
+3. output score as list
+4. append new score to list
+5. output new list
+6. calculate player score
+7. input score as d/D for double and t/T for tripple as well as b/B and be/BE for Bull
+8. more than one Player
+9. give score as file (.txt)
+10. let correct score

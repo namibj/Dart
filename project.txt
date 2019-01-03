@@ -3,6 +3,7 @@ Dart Score
 steps:
 1. read Player Name (Single Player)
 2. input score
+2.1 input string dividing into two parts
 3. output score as list
 4. append new score to list
 5. output new list

@@ -1,16 +1,30 @@
-def main():
-	table = {"1": 1, "2": 2, "3": 3, "4": 4, "5": 5,
-			 "d1": 2, "d2": 4}
-	x = input()
-	print(type(x))
-	if x in table:
-		print("yes")
-		y = table[x]
-		print(y)
-		print(type(y))
-	else:
-		print("no")
+from table import table
 
+
+# TODO Spieler anzahl abfragen
+
+# TODO Spieler namen eintragen
+
+# TODO SpielModi (301, 501, 701)
+
+# def get_input(player_name: str, round: int):
+# 	throw = None
+# 	while (not throw):
+# 		print("{0} Wurf {1}: ", player_name, round, end="", flush=True)
+# 		throw = input()
+# 		if not throw in table: throw = "falsche eingabe"
+# 	return throw
+
+
+def main():
+	score = 501
+	while score != 0:
+		
+
+
+# x = input()
+# if x in table:
+# 	print(table[x])
 
 
 if __name__ == '__main__':

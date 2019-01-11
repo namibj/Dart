@@ -7,14 +7,22 @@ from table import table
 
 # TODO SpielModi (301, 501, 701)
 
-#class player:
+# class player:
 #	def __init__(self, name, score):
 #		self.name = name
 #		self.score = score
 
+def spiel_modi():
+	game_mode = int(input("Bitte geben sie den Spiel Modus an (301/501/701): "))
+	return game_mode
+
+
+def player_numbers():
+	pass
+
 
 def main():
-	score = 501
+	score = spiel_modi()
 	while score != 0:
 		throw = 1
 		sum = 0
